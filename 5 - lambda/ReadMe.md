@@ -1,0 +1,5 @@
+- lambda -> anonymous functions, not take too much space in program 
+- allows to create mini functions or function within functions 
+- Syntax -> lambda <multiple parameters>: <expression to return>
+- Syntax with map -> map(lambda parameter:expression,iterable)
+- Syntax with filter -> filter(lambda parameter:expression evaluate to True/False,iterable)

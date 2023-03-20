@@ -1,0 +1,4 @@
+- filter function -> filter function to list and create a new list based on that filter for values that are returned as true only
+- false / 0 -> not included from filter function
+- true/1/'hi' -> included from filter function
+- filter(function,iterable list)

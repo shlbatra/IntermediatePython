@@ -1,0 +1,16 @@
+- namedtuple 
+    - assign meaning to each position in tuple
+    - allow for more readable, self documenting code 
+    - used wherever regular tuples are used
+    - add ability to access fields by name instead of position index 
+- syntax
+    - namedtuple(<name>,<fields> as iterable object)
+    - create object of tuple -> objName = namedtuple(fieldvalues)
+    - alternate way to create object -> objName = namedtuple._make([fieldvalues])
+    - Methods on named tuple
+        - objName.fieldname to access field value 
+        - objName[0] to access field value by index 
+        - objName._asdict() to access named tuple as a dictionary 
+        - newP._fields to get field names
+        - objName = objName._replace(fieldname=fieldvalue)  to update field value. require this way as tuples are immutable 
+        

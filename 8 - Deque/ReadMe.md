@@ -1,0 +1,13 @@
+- Similar to list 
+- Faster in adding elements in beginning and end of list 
+- Slow in randomly access elements in list
+- Syntax to create 
+    - deque(iterable,maxlen)
+    - Methods
+        - <dequeobject>.append(value)  -> append at end 
+        - <dequeobject>.appendleft(value)  -> append at beginning
+        - <dequeobject>.pop()  -> pop at end 
+        - <dequeobject>.popleft(value)  -> pop at beginning       
+        - <dequeobject>.extend(iterable)  -> append iterable at end
+        - <dequeobject>.extendleft(iterable)  -> append iterable at start
+        - <dequeobject>.extendleft(number) -> pos integer -> rotate to right, neg integer -> rotate to left

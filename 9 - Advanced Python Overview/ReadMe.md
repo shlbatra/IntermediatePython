@@ -1,0 +1,13 @@
+- Compiler - compile high level code to lower level byte code. 
+- Interpreter - takes some code (byte), interpret to machine code and execute code.ex. C -> compile directly to machine code and run so not need interpretor with C
+- Python requires both Compiler and Interpretor
+- Python execution chain
+    - High Level Code 
+    - Compiler transalate to byte code (check syntax) 
+    - Interpretor read byte code and translate to machine code in live time and execute on machine
+- Python needs Interpretor so hard to run code on mobile devices
+- Python doesnt do code validation, only syntax check as code is executed during run time and not compile time.
+- Python code executes on fly so all things defined  are stored in memory and assigned a memory address. so any class has memory address similar to function and variables. We can interact with them live and pass it around in a python program
+- Inspect functions/classes/objects in Python using Inspect module
+    - inspect.getmembers(func) -> metadata about function
+    - inspect.getsource(func) -> source code

@@ -1,0 +1,2 @@
+- map function -> apply function to list and create a new list based on that function in a shortened way 
+- map(function,iterable list)

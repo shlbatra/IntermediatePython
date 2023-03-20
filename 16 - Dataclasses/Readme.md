@@ -1,0 +1,22 @@
+- Classes
+    - Behavior as in methods
+    - Data as in attributes
+- blueprint for objects
+- Behaviour driven class
+    - use inheritance to change behavior
+    - not have too many instance of that class
+- Data driven class   -> dataclass in Python
+    - create many instances
+    - compare instances, order them , inspect the data
+
+- Write classes faster and saves you time
+- dataclass used for mantaining data
+- built in __init__ method to create them fast, print and compare easily
+- Features
+    - 1. Write less code to reach the same result
+    - 2. it allows immutability easily. ex not change owner of post 
+    - 3. it allows to create easily defualt values for instance attributes 
+    - 4. Have full control for attributes you create
+    - 5. Force the user creating instance to use keywords
+- Limitations
+    - 1. If use frozen attributes then they dont change after instantiation - freeze entire class or not any. not selective attributes yet
